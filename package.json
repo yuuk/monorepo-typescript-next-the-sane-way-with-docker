@@ -1,0 +1,11 @@
+{
+  "name": "monorepo-typescript-next-the-sane-way",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "website"
+  ],
+  "scripts": {
+    "build:app": "yarn --cwd=website build"
+  }
+}
